@@ -1,13 +1,19 @@
+
+
 .mainHeading{
   text-align: center;
   font-size: 40px;
   font-weight: bold;
+  font-family: Comic Sans MS;
+
+
 
 }
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Courier;
+
 }
 
 .topnav {
@@ -38,7 +44,15 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-  height: 30%;
+  width: 95vw;
+  height: 70vh;
   padding: 20px;
+  outline-style: solid 1em;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.text {
+  text-align: right;
+
 }
