@@ -5,6 +5,7 @@
   font-size: 40px;
   font-weight: bold;
   font-family: Comic Sans MS;
+  
 
 
 
@@ -12,7 +13,7 @@
 
 body {
   margin: 0;
-  font-family: Courier;
+  font-family: Comic Sans MS;
 
 }
 
@@ -52,7 +53,21 @@ body {
   background-size:cover;
 }
 
-.text {
-  text-align: right;
+.bio {
+  text-align: center;
+  font-family: Comic Sans MS;
+  padding: 10px;
+  font-weight: bold;
+
+
+}
+
+.selfpic {
+  height: 30%;
+  width: 10%;
+  border-radius: 85%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 
 }
