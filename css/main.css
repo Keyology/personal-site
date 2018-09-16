@@ -5,7 +5,7 @@
   font-size: 40px;
   font-weight: bold;
   font-family: Comic Sans MS;
-  
+
 
 
 
@@ -54,20 +54,30 @@ body {
 }
 
 .bio {
-  text-align: center;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: Comic Sans MS;
   padding: 10px;
   font-weight: bold;
+  font-size: 18px;
 
 
 }
 
 .selfpic {
-  height: 30%;
-  width: 10%;
+  height: 80%;
+  width: 50%;
   border-radius: 85%;
   display: block;
   margin-right: auto;
   margin-left: auto;
 
+}
+
+.mainlist {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
 }
