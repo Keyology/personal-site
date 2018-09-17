@@ -60,7 +60,7 @@ color: #99ff99;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
-
+  color: black; 
   padding: 10px;
   font-weight: bold;
   font-size: 18px;
@@ -88,8 +88,8 @@ color: #99ff99;
 .links {
   width: 10%;
   height: 15%;
-  margin: 10px;
   padding: 15px;
-  flex-direction: grid;
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
 }
