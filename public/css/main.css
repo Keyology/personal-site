@@ -94,7 +94,7 @@
         margin: 30px;
     }
 
-    .content>a {
+    .content>img {
         display: block;
         width: 100px;
         height: 100px;
@@ -102,11 +102,11 @@
         color: black;
     }
 
-    .content>a>img {
+    /* .content>img {
         width: 115%;
         height: 128%;
         margin: 10px;
-    }
+    } */
 
 
 
@@ -117,7 +117,19 @@
         font-size: 25px;
     }
 
+    .link {
+        text-align: center;
+        font-size: 25px;
+        font-family: Helvetica;
+        font-style: italic;
 
+        color: #333;
+
+    }
+
+    a {
+        text-decoration: none;
+    }
 
 
 
