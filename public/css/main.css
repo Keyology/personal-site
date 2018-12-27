@@ -180,3 +180,37 @@
         background-color: #333;
         padding: 20px;
     }
+
+    .butn {
+        /* this will style button */
+        position: absolute;
+        bottom: 0.1%;
+        left: 35%;
+        font-size: 25px;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #333;
+        color: #99ff99;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .butn2 {
+
+        position: absolute;
+        bottom: 0.1%;
+        right: 35%;
+        font-size: 25px;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #333;
+        color: #99ff99;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
