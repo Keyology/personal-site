@@ -62,7 +62,7 @@
         font-family: Helvetica;
         width: 400px;
         color: black;
-        padding: 20px;
+        padding: 25px;
         font-size: 20px;
         font-style: italic;
         line-height: 1.5;
@@ -115,24 +115,19 @@
 
 
 
-    /* .skilldiv {
-        text-align: center;
 
-
-    }
-
-    .language {
-        display: inline-block;
-    } */
 
     .tools {
         display: inline-block;
         list-style-type: none;
-        color: black;
+
 
     }
 
     .skilldiv {
         text-align: center;
         font-size: 25px;
+        font-family: Helvetica;
+        font-style: italic;
+        background-color: #333;
     }
