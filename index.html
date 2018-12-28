@@ -5,7 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Keoni Website</title>
+
+  <title>
+    Keoni Website
+
+  </title>
 
   <link rel="stylesheet" href="/css/main.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Hanalei+Fill|Permanent+Marker|Rock+Salt" rel="stylesheet">
@@ -24,7 +28,7 @@
     </ul>
   </div>
   <div id="home">
-    <h1 class='mainHeading'>Keoni Murray Software Developer</h1>
+    <h1 class='mainHeading'>Keoni Murray Software Engineer</h1>
     <img class="landing-image" src="images/coding.jpg" alt=>
     <a href="/resume/resume.pdf" target="_blank">
       <button class="butn">
@@ -143,22 +147,22 @@
   <div id="contact">
 
     <div class="container">
-      <form action="action_page.php">
+      <form action="/email" method='post'>
 
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <!-- <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.."> -->
 
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
         <label for="email">Email</label>
         <input type="text" id="email" name="email" placeholder="Please enter email">
 
-
-
-
         <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <input type="text" id="sjt" name="sjt" placeholder="What's the subject ?">
+
+
+        <label for="msg">Message</label>
+        <textarea id="message" name="mgs" placeholder="Write something.." style="height:200px"></textarea>
+
 
         <input type="submit" value="Submit">
 
