@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 require('dotenv').config('./.env');
 const sgMail = require('@sendgrid/mail');
 
-// const sennd_grid_api = "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"
+
 
 //middleware
 app.use(bodyParser.json())
