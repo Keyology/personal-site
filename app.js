@@ -26,8 +26,7 @@ app.get('/', (req, res) => {
 
 app.post('/email', (req, res) => {
     //this route will handle sending emails
-    // process.env.SEND_GRID_API
-    sgMail.setApiKey(vTFxziWsQbmOEHrjuP26oA.NwL1pKDgq1QBFa9AjDMf4fGNF61CxhUsi0aS0w65oEo);
+    sgMail.setApiKey(process.env.SEND_GRID_API);
 
     const msg = {
         to: 'keonimurray45@gmail.com',
