@@ -36,7 +36,13 @@ app.post('/email', (req, res) => {
         html: `<strong>${req.body.mgs}</strong>`,
 
     };
-    sgMail.send(msg);
+    sgMail.send(msg, function (err, json) {
+        if (err) {
+            console.log("email did not go through", err);
+        }
+        console.log(json)
+
+    });
     console.log("email sent!", msg);
     res.redirect('/')
 
