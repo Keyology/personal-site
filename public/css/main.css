@@ -119,12 +119,17 @@
 
     .link {
         text-align: center;
-        font-size: 25px;
+        font-size: 30px;
         font-family: Helvetica;
         font-style: italic;
 
         color: #333;
 
+    }
+
+    .link a:hover {
+        background-color: #99ff99;
+        /* color: #99ff99; */
     }
 
     a {

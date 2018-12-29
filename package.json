@@ -4,14 +4,19 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "engines": {
+    "node": "11.x"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Keyology/personal-site.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Heroku"],
+  "author": "Keoni Murray",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Keyology/personal-site/issues"
